@@ -1,0 +1,5 @@
+{
+    "require": "test/common.js",
+    "recursive": true,
+    "reporter": "spec"
+}
