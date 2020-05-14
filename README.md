@@ -16,3 +16,8 @@ HOF (Home Office Forms) is a framework designed to assist developers in creating
  * [Biometric Residence Permit (Home Office)](https://github.com/UKHomeOffice/brp_app)
  * [Report terrorist material (Home Office)](https://github.com/UKHomeOffice/rotm)
  * [UKVI Complaints (Home Office)](https://github.com/UKHomeOffice/Complaints)
+
+### Development
+
+* Does not work on Node 12, fine on Node 10.
+* Run tests with `npm test`, you'll need to start redis first `docker-compose -f docker/redis.yml up`
